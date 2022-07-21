@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&display=swap');
+
+
+body{
+	
+	scroll-behavior: smooth;
+	background-color: #333;
+
+}
+
+.header{
+	text-align: center;
+	font-size: 4em;
+}
+
+.header2{
+	text-align: center;
+	font-size: 2em;
+}
+
+.select > td {
+	background-color: #444;
+	color: #111;
+	text-align: center;
+	border-radius: 15%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+    padding: 10px;
+    text-shadow: 1px 1px 0px #555;
+    font-weight: bold;
+}
+
+.pesan{
+	text-align: center;
+	height:250px;
+ 	width:400px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid black;
+	border-radius: 30%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -0%);
+	bottom: -400;
+	color: #fff;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+    padding: 10px;
+}
+
+td{
+	color: #fff;
+}
+
+hr{
+	width: 60%;
+	text-align: center;
+}
